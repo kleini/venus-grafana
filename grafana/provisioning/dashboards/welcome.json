@@ -49,7 +49,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "uid": "datasource-influxdb"
+        "uid": "venus"
       },
       "fieldConfig": {
         "defaults": {
@@ -151,7 +151,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "datasource-influxdb"
+            "uid": "venus"
           },
           "groupBy": [
             {
@@ -175,7 +175,6 @@
           ],
           "measurement": "battery/Soc",
           "orderByTime": "ASC",
-          "policy": "venus_default",
           "refId": "A",
           "resultFormat": "time_series",
           "select": [
@@ -201,7 +200,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "uid": "datasource-influxdb"
+        "uid": "venus"
       },
       "fieldConfig": {
         "defaults": {
@@ -304,7 +303,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "datasource-influxdb"
+            "uid": "venus"
           },
           "groupBy": [
             {
@@ -329,7 +328,6 @@
           "hide": false,
           "measurement": "system/Dc/Pv/Power",
           "orderByTime": "ASC",
-          "policy": "venus_default",
           "refId": "A",
           "resultFormat": "time_series",
           "select": [
@@ -355,7 +353,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "uid": "datasource-influxdb"
+        "uid": "venus"
       },
       "fieldConfig": {
         "defaults": {
@@ -458,7 +456,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "datasource-influxdb"
+            "uid": "venus"
           },
           "groupBy": [
             {
@@ -483,7 +481,6 @@
           "hide": false,
           "measurement": "pvinverter/Ac/Power",
           "orderByTime": "ASC",
-          "policy": "venus_default",
           "refId": "A",
           "resultFormat": "time_series",
           "select": [
