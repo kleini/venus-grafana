@@ -25,7 +25,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "uid": "datasource-influxdb"
+        "uid": "venus"
       },
       "description": "",
       "fieldConfig": {
@@ -135,7 +135,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "datasource-influxdb"
+            "uid": "venus"
           },
           "groupBy": [
             {
@@ -153,7 +153,6 @@
           ],
           "measurement": "system/Dc/Pv/Power",
           "orderByTime": "ASC",
-          "policy": "venus_default",
           "refId": "A",
           "resultFormat": "time_series",
           "select": [
@@ -185,7 +184,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "uid": "datasource-influxdb"
+        "uid": "venus"
       },
       "fieldConfig": {
         "defaults": {
@@ -263,7 +262,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "datasource-influxdb"
+            "uid": "venus"
           },
           "groupBy": [
             {
@@ -287,7 +286,6 @@
           ],
           "measurement": "solarcharger/Yield/Power",
           "orderByTime": "ASC",
-          "policy": "venus_default",
           "refId": "A",
           "resultFormat": "time_series",
           "select": [
@@ -319,7 +317,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "uid": "datasource-influxdb"
+        "uid": "venus"
       },
       "fieldConfig": {
         "defaults": {
@@ -413,7 +411,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "datasource-influxdb"
+            "uid": "venus"
           },
           "groupBy": [
             {
@@ -437,7 +435,6 @@
           ],
           "measurement": "solarcharger/Pv/V",
           "orderByTime": "ASC",
-          "policy": "venus_default",
           "refId": "A",
           "resultFormat": "time_series",
           "select": [
@@ -469,7 +466,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "uid": "datasource-influxdb"
+        "uid": "venus"
       },
       "fieldConfig": {
         "defaults": {
@@ -563,7 +560,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "datasource-influxdb"
+            "uid": "venus"
           },
           "groupBy": [
             {
@@ -587,7 +584,6 @@
           ],
           "measurement": "solarcharger/Mode",
           "orderByTime": "ASC",
-          "policy": "venus_default",
           "refId": "A",
           "resultFormat": "time_series",
           "select": [
@@ -635,7 +631,7 @@
         },
         "datasource": {
           "type": "influxdb",
-          "uid": "datasource-influxdb"
+          "uid": "venus"
         },
         "definition": "show tag values with key = \"name\"",
         "hide": 0,
