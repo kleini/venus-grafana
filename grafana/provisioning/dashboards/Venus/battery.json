@@ -25,7 +25,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "uid": "datasource-influxdb"
+        "uid": "venus"
       },
       "fieldConfig": {
         "defaults": {
@@ -121,7 +121,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "datasource-influxdb"
+            "uid": "venus"
           },
           "groupBy": [
             {
@@ -139,7 +139,6 @@
           ],
           "measurement": "system/Dc/Battery/Soc",
           "orderByTime": "ASC",
-          "policy": "venus_default",
           "refId": "A",
           "resultFormat": "time_series",
           "select": [
@@ -171,7 +170,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "uid": "datasource-influxdb"
+        "uid": "venus"
       },
       "fieldConfig": {
         "defaults": {
@@ -295,7 +294,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "datasource-influxdb"
+            "uid": "venus"
           },
           "groupBy": [
             {
@@ -313,7 +312,6 @@
           ],
           "measurement": "battery/System/MaxCellTemperature",
           "orderByTime": "ASC",
-          "policy": "venus_default",
           "refId": "A",
           "resultFormat": "time_series",
           "select": [
@@ -341,7 +339,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "datasource-influxdb"
+            "uid": "venus"
           },
           "groupBy": [
             {
@@ -360,7 +358,6 @@
           "hide": false,
           "measurement": "battery/System/MinCellTemperature",
           "orderByTime": "ASC",
-          "policy": "venus_default",
           "refId": "B",
           "resultFormat": "time_series",
           "select": [
@@ -392,7 +389,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "uid": "datasource-influxdb"
+        "uid": "venus"
       },
       "fieldConfig": {
         "defaults": {
@@ -546,7 +543,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "datasource-influxdb"
+            "uid": "venus"
           },
           "groupBy": [
             {
@@ -564,7 +561,6 @@
           ],
           "measurement": "battery/System/MaxCellVoltage",
           "orderByTime": "ASC",
-          "policy": "venus_default",
           "refId": "A",
           "resultFormat": "time_series",
           "select": [
@@ -592,7 +588,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "datasource-influxdb"
+            "uid": "venus"
           },
           "groupBy": [
             {
@@ -611,7 +607,6 @@
           "hide": false,
           "measurement": "battery/System/MinCellVoltage",
           "orderByTime": "ASC",
-          "policy": "venus_default",
           "refId": "B",
           "resultFormat": "time_series",
           "select": [
@@ -659,7 +654,7 @@
         },
         "datasource": {
           "type": "influxdb",
-          "uid": "datasource-influxdb"
+          "uid": "venus"
         },
         "definition": "show tag values with key = \"name\"",
         "hide": 0,
